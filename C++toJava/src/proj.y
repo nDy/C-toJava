@@ -19,7 +19,10 @@ int yyerror(char *s);
         };
         
 %token PUBLIC_ACCESS_MODIFIER PRIVATE_ACCESS_MODIFIER
-%token INT FLOAT
+%token INT FLOAT CHAR VOID
+%token COMPEQ COMPLOEQ COMPGOEQ COMPL COMPG
+%token EQ PLUS MINUS MULT DIV MOD
+%token COMMA LPAR RPAR LBRA RBRA NEWL
 
 %start program       
 
